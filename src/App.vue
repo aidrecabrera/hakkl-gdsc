@@ -90,7 +90,7 @@ export default {
 		<div class="border-b-4 border-yellow bg-black max-w-full">
 			<div class="flex flex-wrap items-center justify-center">
 				<div class="rounded-sm content-center text-black bg-white box-border w-auto px-5 py-1 my-3">
-					<span class="font-bold uppercase py-10">ALWAYS STAY SAFE, DIGOSEñOS!</span>
+					<span class="font-bold uppercase py-10">ALWAYS STAY SAFE, HAKKLS!</span>
 				</div>
 				<span
 					class="text-white font-bold tracking-wide uppercase text-sm px-3 py-3 font-sans hover:underline hover:ease-in-out hover:duration-300">
@@ -106,7 +106,7 @@ export default {
 			<div class="flex justify-evenly items-baseline w-full">
 				<!-- A copyright notice. -->
 				<div class="item">
-					© 2022 Aidre Cabrera, COVID Pulse, and Cor Jesu College, Inc.
+					© 2023 Google Developer Student Clubs and HAKKL, Inc.
 				</div>
 				<div class="item">
 					<img src="/footer-logo.png" alt="" class="" />
@@ -117,7 +117,7 @@ export default {
 						<div class="item">Facebook</div>
 						<div class="item">Twitter</div>
 						<div class="item">Github</div>
-						<div class="item">Cor Jesu College, Inc.</div>
+						<div class="item">HAKKL, Inc.</div>
 					</div>
 				</div>
 			</div>

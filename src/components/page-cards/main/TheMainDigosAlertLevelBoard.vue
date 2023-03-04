@@ -5,7 +5,7 @@
 		<div class="container flex-wrap mx-auto px-32 items-center divide-y divide-yellow pt-10 pb-5">
 			<div class="flex font-serif mx-auto justify-evenly pb-7">
 				<div class="container">
-					<h1 class="text-6xl font-serif">Keep Safe, Digoseños!</h1>
+					<h1 class="text-6xl font-serif">Keep Safe, Hakkls!</h1>
 				</div>
 				<div class="container text-xs text-right py-3">
 					<p class="text-sm ml-5">

@@ -128,9 +128,9 @@ export default {
           </a>
           <div class="p-5">
             <a href="#">
-              <span class="main-card-heading">National COVID-19 Vaccination Days Schedule</span>
+              <span class="main-card-heading">HAKKL is against the Jeepney Phaseout</span>
             </a>
-            <p class="main-card-date">March 7, 2022</p>
+            <p class="main-card-date">March 04, 2023</p>
             <a href="#" id="TheButton0" class="main-card-b">
               Read More
               <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
@@ -150,7 +150,7 @@ export default {
             <a href="#">
               <span class="main-card-heading">City of Government COVID-19 Guidance Update</span>
             </a>
-            <p class="main-card-date">March 1, 2022</p>
+            <p class="main-card-date">March 02, 2023</p>
             <a href="#" id="TheButton1" class="main-card-b">
               Read More
               <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
@@ -168,7 +168,7 @@ export default {
           </a>
           <div class="p-5">
             <a href="#">
-              <span class="main-card-heading">Digos City Under COVID-19 Executive Order No.001</span>
+              <span class="main-card-heading">GDSC Under COVID-19 Executive Order No.001</span>
             </a>
             <p class="main-card-date">January 17, 2022</p>
             <a href="#" id="TheButton2" class="main-card-b">

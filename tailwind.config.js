@@ -39,7 +39,7 @@ module.exports = {
         '4xl': '2rem',
       },
       colors: {
-        red: '#643047',
+        red: '#a03015',
         black: '#001219',
         yellow: '#ecdca4',
         blue: '#08141c',

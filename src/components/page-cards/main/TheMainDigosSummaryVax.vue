@@ -1,11 +1,31 @@
 <script>
+import { initializeApp } from "firebase/app";
+import { getDatabase, ref, set, onValue, update, remove, get, push, child } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js";
+// TODO: Replace the following with your app's Firebase project configuration
+// See: https://firebase.google.com/docs/web/learn-more#config-object
+const firebaseConfig = {
+  // ...
+  // The value of `databaseURL` depends on the location of the database
+  databaseURL: "https://hakkl-gdsc-default-rtdb.firebaseio.com",
+};
+// Initialize Firebase
+const app = initializeApp(firebaseConfig); 
+
+// Initialize Realtime Database and get a reference to the service
+const database = getDatabase(app);
+
+console.log("DATABASE" + database);
+const covidData = ref(database, "covid");
+
 export default {
   data() {
     return {
-      NowVaccinated: '',
+      NowVaccinated: '50',
     }
   }
 } 
+
+
 </script>
 
 <template>
@@ -15,7 +35,7 @@ export default {
         <h1 class="mainHeading py-3">COVID-19 Vaccination Overview</h1>
         <p class="mainParagraph">
           Currently,
-          <b>{{ vaccinationPercentage }}%</b>
+          <b>{{ NowVaccinated }}%</b>
           of the Philippine population has received at
           least one dose of a COVID-19 vaccine.
           <b>{{ individualDoses }} million</b>

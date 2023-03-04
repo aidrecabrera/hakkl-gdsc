@@ -37,9 +37,9 @@ export default {
         <h5 class="pt-5">Last updated on {{ nowUpdatedDate }} </h5>
       </div>
       <div>
-        <h1 class="mainHeading py-3">Digos City Summary</h1>
+        <h1 class="mainHeading py-3">#ItIsStillPandemic</h1>
         <p class="mainParagraph">
-          The official Digos City government website for data and insights on
+          The official HAKKL Council website for data and insights on
           <a href="https://doh.gov.ph/COVID-19/FAQs" target="_blank">
             <u>
               <b>SARS-CoV-2 (COVID-19)</b>

@@ -25,8 +25,8 @@ export default {
             class="rounded-2xl opacity-0 hover:opacity-100 ease-in-out duration-300 bg-red bg-opacity-75 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold">
             <div class="flex flex-col text-center items-center">
               <div class="flex flex-col text-center items-center">
-                <img src="/harryvillasor.jpg" alt="" width="10%" class="rounded-full">
-                <p class=" text-sm pt-1 pb-3">Harry Dave Villasor </p>
+                <img src="/src/hanz.jpg" alt="" width="10%" class="rounded-full">
+                <p class=" text-sm pt-1 pb-3">Hanz Geollegue</p>
               </div>
               <a class="text-white font-serif text-3xl text-center"
                 href="https://www.cjc.edu.ph/cjc-boosts-digos-lgu-in-vaccinating-digosenos/" target="_blank">
@@ -34,19 +34,19 @@ export default {
                 <br />in Vaccinating Digoseños
               </a>
               <blockquote class=" text-white italic font-thin prose prose-blockquote: text-sm py-5 mx-20 text-center">
-                <p>Cor Jesu College supports the COVID-19 vaccination program of the local government of Digos City as
+                <p>HAKKL supports the COVID-19 vaccination program of the local government of Digos City as
                   it opened its gates to become the second vaccination center in the city.</p>
               </blockquote>
             </div>
           </div>
           <img class="w-auto rounded-2xl"
-            src="https://i0.wp.com/www.cjc.edu.ph/wp-content/uploads/2021/06/vaccine.jpg?resize=624%2C468&ssl=1" alt />
+            src="/hakkl.jpg" alt />
         </div>
       </div>
       <div class="items-center align-middle py-5 pl-3">
         <div class>
           <div class>
-            <h1 class="main-heading">Cor Jesu College vaccination rates</h1>
+            <h1 class="main-heading">HAKKL vaccination rates</h1>
             <p>
               Vaccination rates are based on the number of senior high school, undergraduate, graduate students,
               faculty, and
