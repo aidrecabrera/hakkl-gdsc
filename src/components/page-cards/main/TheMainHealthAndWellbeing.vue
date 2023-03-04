@@ -1,7 +1,7 @@
 <script setup>
 const corEmployeesVax = 100;
 const corStudentsVax = 100;
-const corVaxDataUpdated = "March 3, 2022";
+const corVaxDataUpdated = "March 04, 2023";
 </script>
 
 <script>
@@ -25,7 +25,7 @@ export default {
             class="rounded-2xl opacity-0 hover:opacity-100 ease-in-out duration-300 bg-red bg-opacity-75 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold">
             <div class="flex flex-col text-center items-center">
               <div class="flex flex-col text-center items-center">
-                <img src="/src/hanz.jpg" alt="" width="10%" class="rounded-full">
+                <img src="" alt="" width="10%" class="rounded-full">
                 <p class=" text-sm pt-1 pb-3">Hanz Geollegue</p>
               </div>
               <a class="text-white font-serif text-3xl text-center"

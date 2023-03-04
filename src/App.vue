@@ -59,13 +59,7 @@ export default {
 									<RouterLink to="/covidinsights" class="text-white">COVID-19 Insights</RouterLink>
 								</a>
 							</li>
-							<li class="nav-item">
-								<a
-									class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
-									<i class="text-lg leading-lg text-white opacity-75" />
-									<RouterLink to="/covidhealth" class="text-white">Health and Wellbeing</RouterLink>
-								</a>
-							</li>
+						
 							<li class="nav-item">
 								<a
 									class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
@@ -73,13 +67,7 @@ export default {
 									<RouterLink to="/covidupdates" class="text-white">COVID-19 Updates</RouterLink>
 								</a>
 							</li>
-							<li class="nav-item">
-								<a
-									class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
-									<i class="text-lg leading-lg text-white opacity-75" />
-									<RouterLink to="/about" class="text-white">About</RouterLink>
-								</a>
-							</li>
+						
 						</ul>
 					</div>
 				</div>

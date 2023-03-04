@@ -1,26 +1,9 @@
 <script>
-import { initializeApp } from "firebase/app";
-import { getDatabase, ref, set, onValue, update, remove, get, push, child } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js";
-// TODO: Replace the following with your app's Firebase project configuration
-// See: https://firebase.google.com/docs/web/learn-more#config-object
-const firebaseConfig = {
-  // ...
-  // The value of `databaseURL` depends on the location of the database
-  databaseURL: "https://hakkl-gdsc-default-rtdb.firebaseio.com",
-};
-// Initialize Firebase
-const app = initializeApp(firebaseConfig); 
-
-// Initialize Realtime Database and get a reference to the service
-const database = getDatabase(app);
-
-console.log("DATABASE" + database);
-const covidData = ref(database, "covid");
-
 export default {
   data() {
     return {
-      NowVaccinated: '50',
+      NowVaccinated: '85.8',
+      individualDoses: '1.31',
     }
   }
 } 
@@ -38,11 +21,11 @@ export default {
           <b>{{ NowVaccinated }}%</b>
           of the Philippine population has received at
           least one dose of a COVID-19 vaccine.
-          <b>{{ individualDoses }} million</b>
+          <b>{{ individualDoses }} billion</b>
           doses have been administered nationally, and
           <b>{{ dailyDosesCommas }}</b>
           are now administered each day. Meanwhile,
-          <b>{{ digosVaccinationPercentage }}%</b>
+          <b>{{ 87 }}%</b>
           of the
           Digoseño population in Digos City has received at least one dose of
           COVID-19 vaccine, and a total of
@@ -50,7 +33,7 @@ export default {
         </p>
       </div>
       <div class="py-5">
-        <img src="https://svgshare.com/i/g7k.svg" alt />
+        <img src="" alt />
       </div>
     </div>
   </main>

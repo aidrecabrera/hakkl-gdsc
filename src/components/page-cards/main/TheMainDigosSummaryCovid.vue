@@ -7,7 +7,7 @@ export default {
       NowCases: '',
       NowDeaths: '',
       NowRecovered: '',
-      nowUpdatedDate: 'May 22, 2022',
+      nowUpdatedDate: 'February 04, 2023',
     }
   },
   async created() {
@@ -54,7 +54,7 @@ export default {
         </div>
         
         <div class="py-5">
-        <img src="https://svgshare.com/i/hao.svg" alt />
+        <img src="./dummy.jpg" alt />
       </div>
 
       </div>
